@@ -1,18 +1,16 @@
 # Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
-
 ## AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 
 ## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
+Hardware – PCs
+Anaconda – Python 3.7 Installation / Jupyter notebook
 ## Algorithm
-1. Import the required packages and print the present data.
-2. Print the placement data and salary data. 
-3. Find the null and duplicate values.
-4. Using logistic regression find the predicted values of accuracy , confusion matrices. Display the results.
-
+Import the required packages and print the present data.
+Print the placement data and salary data.
+Find the null and duplicate values.
+Using logistic regression find the predicted values of accuracy , confusion matrices.
+Display the results.
 ## Program:
 ```
 #Developed by: sarvesh.s
@@ -71,41 +69,45 @@ print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
-
 ## Output:
+### Placement Data:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/43bf5574-366c-4aa8-8bfd-2480d17a20a5)
 
-Placement Data:
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/40fa0c01-1a5a-444b-93d9-32e79c5050e7)
+### Salary Data:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/4481c3dc-e014-4f48-89c2-a05e28f9449e)
 
-Salary Data:
+### Checking the null() function:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/f7bb1d3a-5411-4362-91b4-7017fdd1481d)
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/32b35d17-ea38-4c42-b6d1-33e2b547439f)
 
-Checking the null() function:
+### Data Duplicate:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/6ac841e7-213e-4bc3-87a4-ff0f4818f536)
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/19129898-3fa3-40f9-a597-722c4a618b1d)
+### Print Data:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/90b83a36-7f3e-45bd-8eb6-4f60883f3079)
 
-Print Data:
+### Data-Status:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/6f57b4f8-1050-4e17-a634-b3e6e6f8a286)
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/56f11de1-ad2d-483d-9841-c07201d532a8)
+### Y_prediction array:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/390c1349-5449-4d2f-b9ec-27ce117d1395)
 
-Data-Status:
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/107903a5-9e66-4fc1-88ab-ad0225107a82)
+### Accuracy value:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/e069c29d-699f-43e4-b302-1c2546e24a67)
 
-Y_prediction array:
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/55a1d4e5-0a9a-44de-b39e-541ccc5372f8)
+### Confusion array:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/42bdc9e2-8e65-424d-a13d-914a10cb1e40)
 
-Classification Report:
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/e5f93a63-c146-4950-9502-96797431ebe9)
+### Classification Report:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/1cefb2d7-c140-48a1-ae8e-be95c75652ec)
 
-Prediction of LR:
 
-![image](https://github.com/sarveshjustin/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/113497481/43df464e-a1cc-4d0c-a7bf-34a0c998f6bc)
-
+### Prediction of LR:
+![image](https://github.com/Afsarjumail/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/118343395/d09d023b-6312-411e-944d-c165ffa2dbb0)
 
 
 ## Result:
